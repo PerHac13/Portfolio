@@ -2,7 +2,16 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#fed43a",
+        secondary: "#00000",
+      },
+      fontFamily: {
+        primary: ["Bebas Neue", "Roboto Condensed"],
+        secondary: ["Darker Grotesque"],
+      },
+    },
   },
   plugins: [],
 };

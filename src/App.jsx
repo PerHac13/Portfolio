@@ -1,13 +1,13 @@
-import { useState } from "react";
 import "./App.scss";
+import Home from "./components/Home";
+import SideBar from "./components/sidebar";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello SHAIKH ABDULLAH!</h1>
-    </>
+    <div className="flex">
+      <SideBar />
+      <Home />
+    </div>
   );
 }
 
