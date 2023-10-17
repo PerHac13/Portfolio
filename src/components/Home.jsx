@@ -1,3 +1,4 @@
+import "./Home.scss";
 import HeroSection from "./HeroSection";
 import MyWork from "./MyWork";
 import MySkill from "./MySkill";
@@ -8,7 +9,7 @@ import Footer from "./Footer";
 
 function Home() {
   return (
-    <div className="header absolute right-0 h-[100vh] w-[95.5vw] bg-black m-0  p-0">
+    <div className="header absolute left-[6.5vw] h-[100vh] w-[95.5vw] m-0  p-0">
       <HeroSection />
       <MyWork />
       <MySkill />
