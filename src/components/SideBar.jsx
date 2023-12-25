@@ -17,10 +17,22 @@ function SideBar() {
       <div className="basis-1/5 ">
         <div className="-rotate-90">CONTACT</div>
       </div>
-      <div className="basis-1/5 flex justify-center items-center flex-col">
-        <div className="">f</div>
-        <div className="">i</div>
-        <div className="">g</div>
+      <div className="basis-1/5 flex justify-between items-center flex-col">
+        <a className="cursor-pointer" href="https://github.com/PerHac13">
+          <img src="/github.svg" className="h-12 opacity-90"></img>
+        </a>
+        <a
+          className="cursor-pointer"
+          href="https://www.linkedin.com/in/ashaikh13iiitbh26/"
+        >
+          <img src="/linkedin.svg " className="h-9 opacity-90"></img>
+        </a>
+        <a
+          className="cursor-pointer"
+          href="mailto:shaikh.2201027cs@iiitbh.ac.in"
+        >
+          <img src="/mail.svg" className="h-9 opacity-90"></img>
+        </a>
       </div>
     </div>
   );
