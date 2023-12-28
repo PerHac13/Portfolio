@@ -19,19 +19,31 @@ function SideBar() {
       </div>
       <div className="basis-1/5 flex justify-between items-center flex-col">
         <a className="cursor-pointer" href="https://github.com/PerHac13">
-          <img src="/github.svg" className="h-12 opacity-90"></img>
+          <img
+            src="/github.svg"
+            className="h-12 opacity-90"
+            alt="./github.svg"
+          ></img>
         </a>
         <a
           className="cursor-pointer"
           href="https://www.linkedin.com/in/ashaikh13iiitbh26/"
         >
-          <img src="/linkedin.svg " className="h-9 opacity-90"></img>
+          <img
+            src="/linkedin.svg "
+            className="h-9 opacity-90"
+            alt="./linkedin.svg"
+          ></img>
         </a>
         <a
           className="cursor-pointer"
           href="mailto:shaikh.2201027cs@iiitbh.ac.in"
         >
-          <img src="/mail.svg" className="h-9 opacity-90"></img>
+          <img
+            src="/mail.svg"
+            className="h-9 opacity-90"
+            alt="./mail.svg"
+          ></img>
         </a>
       </div>
     </div>
