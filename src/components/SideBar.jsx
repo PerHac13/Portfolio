@@ -5,16 +5,16 @@ function SideBar() {
                         flex flex-col
                         bg-primary text-secondary shadow-md font-secondary py-20"
     >
-      <div className="basis-1/5 ">
+      <div className="basis-1/5  cursor-pointer">
         <div className="-rotate-90 ">SHAIKH</div>
       </div>
-      <div className="basis-1/5 ">
+      <div className="basis-1/5 cursor-pointer">
         <div className="-rotate-90">WORK</div>
       </div>
-      <div className="basis-1/5 ">
+      <div className="basis-1/5 cursor-pointer">
         <div className="-rotate-90">ABOUT</div>
       </div>
-      <div className="basis-1/5 ">
+      <div className="basis-1/5 cursor-pointer">
         <div className="-rotate-90">CONTACT</div>
       </div>
       <div className="basis-1/5 flex justify-between items-center flex-col">
