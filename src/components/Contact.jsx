@@ -7,6 +7,31 @@ function Contact() {
       <div className="text-black text-center py-8 font-semibold text-xl">
         Go ahead... Don&apos;t be shy
       </div>
+      <div className="flex items-center justify-center pt-2 pb-10">
+        <div className="flex">
+          <a
+            href="tel:+918904459630"
+            className="px-3 cursor-pointer rounded-full"
+          >
+            <img src="./CircleButton.svg" className="hover:animate-pulse" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ashaikh13iiitbh26/"
+            className="px-3 cursor-pointer rounded-full"
+          >
+            <img src="./CircleButtonIn.svg" className="hover:animate-pulse" />
+          </a>
+          <a href="/" className="px-3 cursor-pointer rounded-full">
+            <img src="./CircleButtonInst.svg" className="hover:animate-pulse" />
+          </a>
+          <a
+            href="mailto:shaikh.2201027cs@iiitbh.ac.in"
+            className="px-3 cursor-pointer rounded-full"
+          >
+            <img src="./CircleButtonMail.svg" className="hover:animate-pulse" />
+          </a>
+        </div>
+      </div>
       <div className="">
         <div className="flex items-center justify-center">
           <section className="text-white body-font md:w-[65%]  ">
@@ -29,7 +54,7 @@ function Contact() {
                         <div className="relative">
                           <label
                             // for="name"
-                            className="leading-7 text-sm text-gray-600"
+                            className="leading-7 text-sm text-white"
                           >
                             Name
                           </label>
@@ -37,7 +62,7 @@ function Contact() {
                             type="text"
                             id="name"
                             name="name"
-                            className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            className="w-full bg-[#353535]  border-2 border-[#656565]  text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                           />
                         </div>
                       </div>
@@ -45,7 +70,7 @@ function Contact() {
                         <div className="relative">
                           <label
                             // for="email"
-                            className="leading-7 text-sm text-gray-600"
+                            className="leading-7 text-sm text-white"
                           >
                             Email
                           </label>
@@ -53,7 +78,7 @@ function Contact() {
                             type="email"
                             id="email"
                             name="email"
-                            className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            className="w-full bg-[#353535]  border-2 border-[#656565]  text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                           />
                         </div>
                       </div>
@@ -61,14 +86,14 @@ function Contact() {
                         <div className="relative">
                           <label
                             // for="message"
-                            className="leading-7 text-sm text-gray-600"
+                            className="leading-7 text-sm text-white"
                           >
                             Message
                           </label>
                           <textarea
                             id="message"
                             name="message"
-                            className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                            className="w-full bg-[#353535]  border-2 border-[#656565]  h-32 text-base outline-none text-white py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                           ></textarea>
                         </div>
                       </div>
