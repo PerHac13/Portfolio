@@ -14,13 +14,6 @@ function MySkill() {
       <div className="flex items-center justify-center w-full py-20">
         <div className="bg-primary rounded-lg p-1 shadow-lg w-[70%]">
           <div className="bg-black rounded-lg p-10 flex items-center justify-center flex-wrap ">
-            {/* <SkillBox
-              logo={"./cpp.svg"}
-              logoName={"C++"}
-              description={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-              }
-            /> */}
             {skillSet.map((item, index) => (
               <SkillBox
                 key={index}
