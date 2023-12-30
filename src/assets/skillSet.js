@@ -3,7 +3,7 @@ const skillSet = [
     logo: "./c.svg",
     logoName: "C",
     description:
-      "C is a powerful, procedural programming language known for efficiency and close-to-hardware capabilities, essential for system development and optimization.",
+      "Powerful, procedural programming language known for efficiency and close-to-hardware capabilities, essential for system development and optimization.",
   },
   {
     logo: "./cpp.svg",
