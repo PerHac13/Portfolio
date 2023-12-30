@@ -1,4 +1,11 @@
 function SideBar() {
+  // const scrollToSection = (id) => {
+  //   const element = document.getElementById(id);
+
+  //   if (element) {
+  //     element.scrollIntoView({ behavior: "smooth" });
+  //   }
+  // };
   return (
     <div
       className="fixed top-0 left-0 h-screen w-[6.5vw] m-0  justify-between text-xl font-medium
@@ -6,16 +13,24 @@ function SideBar() {
                         bg-primary text-secondary shadow-md font-secondary py-20 "
     >
       <div className="basis-1/5  cursor-pointer">
-        <div className="-rotate-90 ">SHAIKH</div>
+        <a href="#">
+          <div className="-rotate-90 ">SHAIKH</div>
+        </a>
       </div>
       <div className="basis-1/5 cursor-pointer">
-        <div className="-rotate-90">WORK</div>
+        <a href="">
+          <div className="-rotate-90">WORK</div>
+        </a>
       </div>
       <div className="basis-1/5 cursor-pointer">
-        <div className="-rotate-90">ABOUT</div>
+        <a href="">
+          <div className="-rotate-90">ABOUT</div>
+        </a>
       </div>
       <div className="basis-1/5 cursor-pointer">
-        <div className="-rotate-90">CONTACT</div>
+        <a href="">
+          <div className="-rotate-90">CONTACT</div>
+        </a>
       </div>
       <div className="basis-1/5 flex justify-between items-center flex-col">
         <a className="cursor-pointer" href="https://github.com/PerHac13">
