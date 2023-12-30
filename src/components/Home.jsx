@@ -2,7 +2,7 @@ import "./Home.scss";
 import HeroSection from "./HeroSection";
 import MyWork from "./MyWork";
 import MySkill from "./MySkill";
-import TechStack from "./TechStack";
+// import TechStack from "./TechStack";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact";
 import Footer from "./Footer";
@@ -18,7 +18,7 @@ function Home() {
       <HeroSection />
       <MyWork />
       <MySkill />
-      <TechStack />
+      {/* <TechStack /> */}
       <AboutMe />
       <Contact />
       <Footer />
