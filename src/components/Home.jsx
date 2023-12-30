@@ -17,7 +17,13 @@ function Home() {
         </div>
       </div>
       <MyWork />
+      <div className="bg-transparent">
+        <div className="text-5xl font bold text-center py-20 animate-pulse  text-white"></div>
+      </div>
       <MySkill />
+      <div className="bg-transparent">
+        <div className="text-5xl font bold text-center py-20 animate-pulse  text-white"></div>
+      </div>
       {/* <TechStack /> */}
       <AboutMe />
       <Contact />

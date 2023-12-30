@@ -1,7 +1,7 @@
 function AboutMe() {
   return (
     <>
-      <div className="">
+      <div className="pt-30">
         <div className="bg-secondary sm:bg-transparent  justify-start ">
           <div className="text-center sm:basis-1/2 text-primary text-8xl font-bold w-[50%]">
             About Me

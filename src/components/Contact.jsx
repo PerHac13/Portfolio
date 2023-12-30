@@ -21,7 +21,10 @@ function Contact() {
           >
             <img src="./CircleButtonIn.svg" className="hover:animate-pulse" />
           </a>
-          <a href="/" className="px-3 cursor-pointer rounded-full">
+          <a
+            href="https://www.instagram.com/shabdullah_martian/"
+            className="px-3 cursor-pointer rounded-full"
+          >
             <img src="./CircleButtonInst.svg" className="hover:animate-pulse" />
           </a>
           <a

@@ -4,7 +4,7 @@ import skillSet from "../assets/skillSet";
 function MySkill() {
   return (
     <>
-      <div className="">
+      <div className="pt-20">
         <div className="bg-secondary sm:bg-transparent  justify-start ">
           <div className="text-center sm:basis-1/2 text-white text-8xl font-bold w-[50%]">
             My Skill
