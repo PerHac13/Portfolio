@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className="bg-primary text-center w-full p-10 lg:px-40  ">
+    <div className="bg-primary text-center w-full p-10 lg:px-40  " id="contact">
       <div className="text-black text-center pt-20 font-bold text-4xl">
         Reach Out To Me!!!
       </div>

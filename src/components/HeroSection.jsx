@@ -1,8 +1,15 @@
 import MButton from "./Button";
 
 function HeroSection() {
+  // const scrollToSection = (id) => {
+  //   const element = document.getElementById(id);
+
+  //   if (element) {
+  //     element.scrollIntoView({ behavior: "smooth" });
+  //   }
+  // };
   return (
-    <div className="m-0" style={{ minHeight: "100vh" }}>
+    <div className="m-0" style={{ minHeight: "100vh" }} id="HeroSection">
       <div className="p-20">
         <div className="flex items-center justify-center  flex-wrap pt-20">
           <div className="w-[50%]">
@@ -69,14 +76,16 @@ function HeroSection() {
             />
           </div>
           <div className="w-[50%] flex justify-center items-center">
-            <MButton
-              text="See my Work"
-              textColor="white"
-              hoverTextColor="white"
-              bgColor="bg-ternary"
-              hoverBgColor=""
-              font="bold"
-            />
+            <div role="button">
+              <MButton
+                text="See my Work"
+                textColor="white"
+                hoverTextColor="white"
+                bgColor="bg-ternary"
+                hoverBgColor=""
+                font="bold"
+              />
+            </div>
           </div>
         </div>
       </div>
