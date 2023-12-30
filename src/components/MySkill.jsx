@@ -6,7 +6,7 @@ function MySkill() {
     <>
       <div className="">
         <div className="bg-secondary sm:bg-transparent  justify-start ">
-          <div className="text-center sm:basis-1/2 text-primary text-8xl font-bold w-[50%]">
+          <div className="text-center sm:basis-1/2 text-white text-8xl font-bold w-[50%]">
             My Skill
           </div>
         </div>
