@@ -3,7 +3,7 @@ function SideBar() {
     <div
       className="fixed top-0 left-0 h-screen w-[6.5vw] m-0  justify-between text-xl font-medium
                         flex flex-col
-                        bg-primary text-secondary shadow-md font-secondary py-20 z-[10000]"
+                        bg-primary text-secondary shadow-md font-secondary py-20 "
     >
       <div className="basis-1/5  cursor-pointer">
         <div className="-rotate-90 ">SHAIKH</div>

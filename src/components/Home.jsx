@@ -11,7 +11,7 @@ function Home() {
   return (
     <div className="header absolute left-[6.5vw]  w-[95.5vw] m-0 ">
       <div className="bg-red-900">
-        <div className="text-5xl font bold text-center py-40 animate-pulse z-50 text-white">
+        <div className="text-5xl font bold text-center py-40 animate-pulse  text-white">
           Work in Progress!!
         </div>
       </div>
