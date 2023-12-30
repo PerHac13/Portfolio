@@ -27,7 +27,7 @@ const MButton = ({
 
   return (
     <button
-      className={`transition-all bg-${bgColor} hover:bg-${hoverBgColor} text-${textColor} hover:text-${hoverTextColor} py-2 px-4 shadow-md h-16 font-${font} text-[1.2rem]`}
+      className={`transition-all ${bgColor} hover:bg-${hoverBgColor} text-${textColor} hover:text-${hoverTextColor} py-2 px-4 shadow-md h-16 font-${font} text-[1.2rem]`}
       onMouseEnter={handleHover}
       onMouseLeave={handleLeave}
     >

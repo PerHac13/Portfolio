@@ -6,6 +6,7 @@ export default {
       colors: {
         primary: "#fed43a",
         secondary: "#00000",
+        ternary: "#6c48c2",
       },
       fontFamily: {
         primary: ["Bebas Neue", "Roboto Condensed"],
