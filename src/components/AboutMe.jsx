@@ -14,13 +14,13 @@ function AboutMe() {
             <img src="./face-sticker.png" />
             <div className="px-10 ">
               <div className="text-white text-left font-medium ">
-                &quot; As a highly motivated and inquisitive professional, I
-                possess an innate passion for design that extends across various
-                disciplines. Embracing an autodidactic approach, I consistently
-                maintain a positive and ego-free demeanor in all aspects of my
-                work. My commitment to excellence is underscored by a robust
-                work ethic that permeates every endeavor, ensuring a steadfast
-                dedication to achieving superior outcomes.&quot;
+                &quot; Despite my limited experience, I&apos;m a highly
+                motivated and inquisitive professional with a passion for things
+                across disciplines. As a quick learner, I embrace an
+                autodidactic approach, maintaining a positive demeanor.
+                Committed to excellence, my robust work ethic ensures steadfast
+                dedication to achieving superior outcomes in every
+                endeavor.&quot;
               </div>
             </div>
           </div>
